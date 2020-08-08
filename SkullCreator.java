@@ -13,7 +13,7 @@ import com.mojang.authlib.properties.Property;
 
 public class SkullCreator {
 	
-public static ItemStack voltar;
+public static ItemStack voltar; //Necessário criar o ItemStack para poder vincular a cabeça
 	
 	static {
 		 voltar = getSkull("http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9"); //Exemplo de Criação de Cabeça
