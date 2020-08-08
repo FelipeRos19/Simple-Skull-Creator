@@ -1,4 +1,4 @@
-package SzBank.APIs;
+package SzBank.APIs; //Package do seu projeto (Alterar)
 
 import java.lang.reflect.Field;
 import java.util.UUID;
@@ -16,7 +16,7 @@ public class SkullCreator {
 public static ItemStack voltar;
 	
 	static {
-		 voltar = getSkull("http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9");
+		 voltar = getSkull("http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9"); //Exemplo de Criação de Cabeça
 	}
 
 	public static ItemStack getSkull(String url) {
